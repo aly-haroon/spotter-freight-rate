@@ -1,0 +1,119 @@
+{
+  "settings": [
+    {
+      "name": "depth4_lr003",
+      "params": {
+        "n_estimators": 1500,
+        "learning_rate": 0.03,
+        "max_depth": 4,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    {
+      "name": "depth4_lr005",
+      "params": {
+        "n_estimators": 900,
+        "learning_rate": 0.05,
+        "max_depth": 4,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    {
+      "name": "depth6_lr003",
+      "params": {
+        "n_estimators": 1500,
+        "learning_rate": 0.03,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    {
+      "name": "depth6_lr005",
+      "params": {
+        "n_estimators": 900,
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    {
+      "name": "depth8_lr003",
+      "params": {
+        "n_estimators": 1500,
+        "learning_rate": 0.03,
+        "max_depth": 8,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    },
+    {
+      "name": "depth8_lr005",
+      "params": {
+        "n_estimators": 900,
+        "learning_rate": 0.05,
+        "max_depth": 8,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "tree_method": "hist",
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    }
+  ],
+  "reference": "depth6_lr003",
+  "folds": [
+    [
+      "F1",
+      "2025-07-01",
+      "2025-09-01"
+    ],
+    [
+      "F2",
+      "2025-08-01",
+      "2025-10-01"
+    ],
+    [
+      "F3",
+      "2025-09-01",
+      "2025-11-01"
+    ]
+  ],
+  "acceptance": [
+    "Filtered diagnostic fold-mean MAPE improves by at least 0.05 percentage points",
+    "No filtered diagnostic fold MAPE worsens by more than 0.3 percentage points",
+    "All-row fold-mean MAE and MAPE do not worsen"
+  ],
+  "notes": [
+    "Fixed grid; 1500 trees at 0.03 and 900 at 0.05, with equal rate-times-tree-count",
+    "Same features, market layer, 13-week level, seed and cleaning for every setting",
+    "All-row metrics are primary; filtered rows are retrospective diagnostics",
+    "Previously used overlapping development folds; not independent final accuracy",
+    "No early stopping or extra parameter search using these results",
+    "No production settings or submission files change automatically"
+  ]
+}

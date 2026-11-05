@@ -1,0 +1,13 @@
+date,"corr(qs, true rpm)","corr(qs, expected rpm) label-free",regime
+2025-01,0.996,0.931,copies rpm (leak)
+2025-02,0.996,0.928,copies rpm (leak)
+2025-03,0.997,0.922,copies rpm (leak)
+2025-04,-0.993,-0.921,inverted
+2025-05,-0.994,-0.927,inverted
+2025-06,0.997,0.931,copies rpm (leak)
+2025-07,-0.994,-0.921,inverted
+2025-08,-0.02,-0.02,noise
+2025-09,0.997,0.933,copies rpm (leak)
+2025-10,-0.994,-0.926,inverted
+2025-11,,-0.0,noise
+2025-12,,-0.019,noise

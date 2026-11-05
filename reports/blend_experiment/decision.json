@@ -1,0 +1,6 @@
+{
+  "eligible_for_review": false,
+  "filtered_mean_mape_improvement_points": 0.10078135859835895,
+  "worst_filtered_fold_mape_worsening_points": 0.43552233595398904,
+  "production_changed": false
+}

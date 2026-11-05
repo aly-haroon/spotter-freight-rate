@@ -1,0 +1,28 @@
+features,feature,heldout_permutation_AUC_drop,normalized_gain
+deployed features,log_market_index,0.24776432359925749,0.5474045872688293
+deployed features,delivery_lat,0.00835936226482037,0.08688672631978989
+deployed features,pickup_lat,0.005176858994819751,0.07397710531949997
+deployed features,pickup_lon,0.004190984625894956,0.0659603625535965
+deployed features,delivery_lon,0.0036798646754015265,0.04437173157930374
+deployed features,delta_lat,0.000675435336673802,0.021758882328867912
+deployed features,weight_missing,0.00047324677316210967,0.049454882740974426
+deployed features,delta_lon,0.0004373658413651486,0.020679175853729248
+deployed features,weight,0.0004182818214020223,0.022705545648932457
+deployed features,eq_Flatbed,3.925518549452445e-05,0.018298523500561714
+deployed features,eq_Reefer,1.2143210875318703e-05,0.01637374423444271
+deployed features,eq_Dry Van,7.858729166495179e-06,0.011717184446752071
+deployed features,log_distance,-8.832032132914207e-05,0.020411545410752296
+deployed plus unused quote_signal,log_market_index,0.2477178173579445,0.424564391374588
+deployed plus unused quote_signal,quote_signal,0.0545184913307627,0.06423350423574448
+deployed plus unused quote_signal,log_distance,0.03883318071245397,0.081966832280159
+deployed plus unused quote_signal,delivery_lat,0.007119475308267731,0.06679506599903107
+deployed plus unused quote_signal,pickup_lat,0.004864420024966824,0.06110941618680954
+deployed plus unused quote_signal,eq_Dry Van,0.004652270233783932,0.07594414800405502
+deployed plus unused quote_signal,pickup_lon,0.003392696711965034,0.04224931821227074
+deployed plus unused quote_signal,eq_Reefer,0.0029724405931867612,0.0429082065820694
+deployed plus unused quote_signal,delivery_lon,0.0025600765358683533,0.03227071091532707
+deployed plus unused quote_signal,delta_lon,0.002056623012849035,0.022777704522013664
+deployed plus unused quote_signal,delta_lat,0.0011840169048263904,0.018399249762296677
+deployed plus unused quote_signal,weight,0.00086654219465269,0.01712080091238022
+deployed plus unused quote_signal,weight_missing,0.00013270868000192504,0.041467588394880295
+deployed plus unused quote_signal,eq_Flatbed,8.461274468851698e-07,0.00819308403879404

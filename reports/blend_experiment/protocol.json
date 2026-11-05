@@ -1,0 +1,31 @@
+{
+  "blend": "exp(0.5 * log(recent_prediction) + 0.5 * log(trend_prediction))",
+  "folds": [
+    [
+      "F1",
+      "2025-07-01",
+      "2025-09-01"
+    ],
+    [
+      "F2",
+      "2025-08-01",
+      "2025-10-01"
+    ],
+    [
+      "F3",
+      "2025-09-01",
+      "2025-11-01"
+    ]
+  ],
+  "acceptance": [
+    "Filtered diagnostic fold-mean MAPE improves by at least 0.05 percentage points",
+    "No filtered diagnostic fold MAPE worsens by more than 0.3 percentage points",
+    "All-row fold-mean MAE and MAPE do not worsen"
+  ],
+  "notes": [
+    "Fixed weight chosen before this experiment; no weight search",
+    "All-row results are primary; filtered rows are retrospective diagnostics",
+    "Folds overlap and were previously used for development; not an independent final test",
+    "RMSE is reported separately because the hidden evaluation metric is unknown"
+  ]
+}

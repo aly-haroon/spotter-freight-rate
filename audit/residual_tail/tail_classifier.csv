@@ -1,0 +1,2 @@
+train_start,train_end,test_start,test_end,train_n,train_flagged_n,test_n,test_flagged_n,test_prevalence_pct,AUC,average_precision
+2025-01-01,2025-08-31,2025-09-01,2025-10-31,38477,533,9523,144,1.5121285309251287,0.5014615986068167,0.01624421149968214

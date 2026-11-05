@@ -1,0 +1,5 @@
+train window,"corr(market, time)",joint fit: market b,joint fit: trend %/month,two-step: market b (within-week),recent 13-week level shift %
+to 2025-07-01,0.85,0.1,1.29,0.124,0.88
+to 2025-08-01,0.73,0.157,0.68,0.13,1.17
+to 2025-09-01,0.36,0.176,0.52,0.128,1.19
+to 2025-11-01,-0.11,0.153,0.65,0.119,1.29

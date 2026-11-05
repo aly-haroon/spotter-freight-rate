@@ -1,0 +1,3 @@
+# Preserve release bytes across platforms, including CSV and log line endings.
+# submission_manifest.json records checksums of those exact bytes.
+* -text

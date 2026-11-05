@@ -1,0 +1,8 @@
+,train mean market_index,validation mean market_index,train median rpm
+Mon,1.0,0.846,2.126
+Tue,1.075,0.921,2.139
+Wed,1.153,1.002,2.162
+Thu,1.179,1.027,2.171
+Fri,1.134,0.979,2.158
+Sat,1.048,0.895,2.132
+Sun,0.989,0.835,2.127

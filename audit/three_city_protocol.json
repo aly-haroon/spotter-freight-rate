@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "cities": [
+    "Bakersfield",
+    "Montgomery",
+    "Providence"
+  ],
+  "selection": "sample 3 without replacement from sorted Jan-Aug city names, before audit fit",
+  "train_raw_n": 34581,
+  "train_fit_n": 34091,
+  "test_touching_cities_n": 999
+}

@@ -1,0 +1,17 @@
+{
+  "candidates": [
+    {
+      "weeks": 8,
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": -0.0991289851771165,
+      "worst_filtered_fold_mape_worsening_points": 0.36841358205784136
+    },
+    {
+      "weeks": 17,
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": -0.08228982000471168,
+      "worst_filtered_fold_mape_worsening_points": 0.11452723067470494
+    }
+  ],
+  "production_changed": false
+}

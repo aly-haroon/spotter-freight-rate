@@ -1,0 +1,5 @@
+population,rows,flagged_n,above_typical_n,below_typical_n,above_share_of_flagged_pct,below_share_of_flagged_pct,unclassified_flagged_n
+Jan-Oct training,48000,677,340,337,50.22156573116691,49.77843426883309,0
+Jan-Aug classifier training,38477,533,267,266,50.093808630393994,49.906191369606006,0
+Sep-Oct classifier test,9523,144,73,71,50.69444444444444,49.30555555555556,0
+latest-origin OOF,19194,277,142,135,51.26353790613718,48.73646209386282,0

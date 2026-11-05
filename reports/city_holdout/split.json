@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "heldout_cities": [
+    "Bakersfield",
+    "Hartford",
+    "Memphis",
+    "New York",
+    "San Antonio",
+    "Toledo",
+    "Tulsa",
+    "Washington"
+  ],
+  "selection": "Eight cities sampled from sorted January-August city names; no test labels used",
+  "training_end_exclusive": "2025-09-01",
+  "test_end_exclusive": "2025-11-01",
+  "past_rows": 38477,
+  "past_rows_after_city_exclusion": 28431,
+  "test_rows": 9523,
+  "test_rows_touching_heldout_cities": 2516,
+  "notes": [
+    "One predetermined city split is a diagnostic, not a guarantee for every new city.",
+    "All-row metrics are primary; filtered metrics use test prices for diagnostic labels only.",
+    "The reference model sees these cities in past data; both models predict identical test rows.",
+    "City removal also reduces training size; the comparison includes that effect.",
+    "Same-day market imputation uses feature-only observations from the respective input batch."
+  ]
+}

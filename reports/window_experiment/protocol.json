@@ -1,0 +1,37 @@
+{
+  "windows_weeks": [
+    8,
+    13,
+    17
+  ],
+  "reference_weeks": 13,
+  "folds": [
+    [
+      "F1",
+      "2025-07-01",
+      "2025-09-01"
+    ],
+    [
+      "F2",
+      "2025-08-01",
+      "2025-10-01"
+    ],
+    [
+      "F3",
+      "2025-09-01",
+      "2025-11-01"
+    ]
+  ],
+  "acceptance": [
+    "Filtered diagnostic fold-mean MAPE improves by at least 0.05 percentage points",
+    "No filtered diagnostic fold MAPE worsens by more than 0.3 percentage points",
+    "All-row fold-mean MAE and MAPE do not worsen"
+  ],
+  "notes": [
+    "Three tree fits total; all windows reuse identical trees within each fold",
+    "Window affects prediction shift only, not tree training target or features",
+    "All-row results are primary; filtered rows are retrospective diagnostics",
+    "Previously used overlapping development folds, not independent final evaluation",
+    "No production setting is changed automatically"
+  ]
+}

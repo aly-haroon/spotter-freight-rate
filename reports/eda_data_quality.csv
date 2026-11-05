@@ -1,0 +1,9 @@
+,train,validation
+rows,48000.0,12000.0
+negative weight,292.0,145.0
+missing weight,300.0,165.0
+missing market_index,374.0,249.0
+"weight at 47,500 cap",1191.0,297.0
+price outliers flagged,677.0,
+cities not in train,,8.0
+rows on unseen lanes,,1461.0

@@ -1,0 +1,47 @@
+{
+  "reference": "depth6_lr003",
+  "candidates": [
+    {
+      "model": "depth4_lr003",
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": 0.008107902479805492,
+      "worst_filtered_fold_mape_worsening_points": -0.004457641939366486,
+      "all_row_mean_mae": 98.31868531990693,
+      "all_row_mean_mape": 4.264583240637796
+    },
+    {
+      "model": "depth4_lr005",
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": 0.0049438207244728955,
+      "worst_filtered_fold_mape_worsening_points": 0.0014755900553060641,
+      "all_row_mean_mae": 98.39243552461589,
+      "all_row_mean_mape": 4.267853644916003
+    },
+    {
+      "model": "depth6_lr005",
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": -0.0024092936479058746,
+      "worst_filtered_fold_mape_worsening_points": 0.00492058673244089,
+      "all_row_mean_mae": 98.61690751712513,
+      "all_row_mean_mape": 4.272530500472892
+    },
+    {
+      "model": "depth8_lr003",
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": -0.05439374519371509,
+      "worst_filtered_fold_mape_worsening_points": 0.08686083574679349,
+      "all_row_mean_mae": 99.98739833243883,
+      "all_row_mean_mape": 4.323900199499293
+    },
+    {
+      "model": "depth8_lr005",
+      "eligible_for_review": false,
+      "filtered_mean_mape_improvement_points": -0.059822163558865826,
+      "worst_filtered_fold_mape_worsening_points": 0.08738393330304617,
+      "all_row_mean_mae": 100.12531440705256,
+      "all_row_mean_mape": 4.329514118530725
+    }
+  ],
+  "candidate_for_review": null,
+  "production_changed": false
+}

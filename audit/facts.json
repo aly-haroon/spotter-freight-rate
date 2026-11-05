@@ -1,0 +1,123 @@
+{
+  "train_rows": 48000,
+  "train_start": "2025-01-01",
+  "train_end": "2025-10-31",
+  "final_rows": 12000,
+  "final_start": "2025-11-01",
+  "final_end": "2025-12-31",
+  "train_unique_ids": true,
+  "final_unique_ids": true,
+  "id_overlap": 0,
+  "final_has_target": false,
+  "notebooks": [],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.1"
+  },
+  "source_copy_hashes_equal": {
+    "train": true,
+    "final": true
+  },
+  "train_quality": {
+    "weight_missing": 300,
+    "weight_negative": 292,
+    "market_missing": 374,
+    "all_missing_market_days": 0,
+    "nonpositive_distance": 0,
+    "nonpositive_market_observed": 0
+  },
+  "final_quality": {
+    "weight_missing": 165,
+    "weight_negative": 145,
+    "market_missing": 249,
+    "all_missing_market_days": 0,
+    "nonpositive_distance": 0,
+    "nonpositive_market_observed": 0
+  },
+  "new_cities": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "final_rows_new_city": 1447,
+  "final_rows_unseen_route": 1461,
+  "base_feature_names": [
+    "log_distance",
+    "eq_Dry Van",
+    "eq_Flatbed",
+    "eq_Reefer",
+    "weight",
+    "weight_missing",
+    "pickup_lat",
+    "pickup_lon",
+    "delivery_lat",
+    "delivery_lon",
+    "delta_lat",
+    "delta_lon"
+  ],
+  "gbm_params": {
+    "n_estimators": 1500,
+    "learning_rate": 0.03,
+    "max_depth": 6,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "training_outliers": 677,
+  "cities_with_conflicting_coordinates": 0,
+  "oof_prediction_occurrences": 28623,
+  "oof_unique_rows_latest_origin": 19194,
+  "oof_duplicate_occurrences": 9429,
+  "f3_refit_max_abs_difference": 9.094947017729282e-13,
+  "f3_market_coefficient": 0.12819094425151936,
+  "final_saved_prediction_max_abs_difference_rounded": 0.0,
+  "two_final_refits_max_abs_difference_unrounded": 0.0,
+  "final_market_coefficient": 0.11935478657308571,
+  "december_saved_prediction_max_abs_difference_rounded": 0.0,
+  "december_coordinates": [
+    {
+      "city": "Lexington",
+      "lat": 36.99152,
+      "lon": -84.99876
+    },
+    {
+      "city": "Fort Wayne",
+      "lat": 41.31561,
+      "lon": -85.36206
+    }
+  ],
+  "december_shape": {
+    "first": 811.87,
+    "last": 832.21,
+    "day_change_min": -9.059999999999945,
+    "day_change_max": 8.889999999999986,
+    "median_abs_day_change": 6.5849999999999795,
+    "linear_slope_dollars_per_day": 0.09736693548385712
+  },
+  "scorer_returncode": 0,
+  "submission_checks": {
+    "columns": [
+      "load_id",
+      "predicted_rate"
+    ],
+    "rows": 12000,
+    "unique_ids": true,
+    "ids_exact_expected": true,
+    "finite_positive": true,
+    "same_as_backup": true
+  },
+  "protected_files_unchanged": true,
+  "protected_file_count": 71
+}
